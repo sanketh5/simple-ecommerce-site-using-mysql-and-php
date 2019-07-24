@@ -1,0 +1,230 @@
+/* myStyle.css */
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 100%;
+  background-color: whitesmoke;
+  overflow: auto;
+}
+
+.navbar a {
+  float: right;
+  padding: 12px;
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+.navbar a:hover {
+  background-color: rgb(199, 193, 193);
+}
+
+.active {
+  background-color: grey;
+}
+p1{
+   float:left;
+  }
+  h1{
+   font-size: 50px;
+    font-family: Sans MS;}
+ .abcd
+  {
+   float:right;
+   width:500px;
+   height:200px;
+   margin-right:200px;
+}
+.icon
+{
+size: 45px;
+}
+h1{
+  font-size: 30px;
+  font-family:  Sans Ms;
+}
+p1{
+  font-size: 15px;
+  font-family: Sans Ms;
+  font-weight:500
+}
+h2{
+ font-weight: 500;
+  font-family:  Sans Ms;
+}
+
+@media screen and (max-width: 250px) {
+  .navbar a {
+    float: none;
+    display: block; box-sizing: border-box}
+    body {font-family: Verdana, sans-serif; margin:0}
+    .mySlides {display: none}
+    img {vertical-align: middle;}
+     
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+  }
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+ 
+}
+
+h3{
+  font-weight: 500;
+  font-size:30px;
+  font-family: Sans Ms;
+  
+
+
+}
+.dropbtn {
+  background-color:black;
+  color:whitesmoke;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  padding-right: 50px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:rgb(13, 14, 15);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: whitesmoke;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color:rgb(14, 89, 187)}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color:rgb(14, 89, 187);
+}
+table,td{
+ padding-right: 100px;
+
+}
+* {
+  box-sizing: border-box;
+}
+/* our Special Team*/
+.column {
+  float: left;
+  width: 100.33%;
+  padding: 55px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+div.gallery {
+  margin: 30px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+/*end of Our Special Team*/
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
